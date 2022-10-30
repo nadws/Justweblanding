@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <>
             <Head>
-                <title>JusWeb</title>
+                <title>Home</title>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
                 <link
@@ -13,24 +13,24 @@ export default function Navbar() {
                     rel="stylesheet"
                 />
             </Head>
-            <section>
+            <section className="mx-10">
                 <div className="p-6 flex justify-between">
                     <div>
-                        <h1 className="font-bold font-poppins text-lg">
+                        <h1 className="font-bold font-poppins text-lg text-[#35383F]">
                             JustWeb
                         </h1>
                     </div>
                     <div className="justify-center">
-                        <Link className="mr-4 hover:underline font-poppins font-semibold text-sm">
+                        <Link className="mr-4 hover:underline font-poppins font-semibold text-sm text-[#35383F]">
                             Home
                         </Link>
-                        <Link className="mr-4 hover:underline font-poppins font-semibold text-sm">
+                        <Link className="mr-4 hover:underline font-poppins font-semibold text-sm text-[#35383F]">
                             Layanan
                         </Link>
-                        <Link className="mr-4 hover:underline font-poppins font-semibold text-sm">
+                        <Link className="mr-4 hover:underline font-poppins font-semibold text-sm text-[#35383F]">
                             Produk
                         </Link>
-                        <Link className="font-poppins hover:underline font-semibold text-sm">
+                        <Link className="font-poppins hover:underline font-semibold text-sm text-[#35383F]">
                             Kontak
                         </Link>
                     </div>
